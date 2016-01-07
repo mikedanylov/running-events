@@ -1,0 +1,77 @@
+.event-name {
+  height: 75px;
+  display: inline-block;
+}
+
+.event-location {
+  height: 60px;
+}
+
+.scroll-detector {
+  height: 20px;
+}
+
+.thumbnail {
+  width: 100%;
+  display: block;
+  background-color: #DBE8F9;
+  -webkit-filter: grayscale(00%);
+  -moz-filter: grayscale(00%);
+  -o-filter: grayscale(00%);
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.thumbnail:hover {
+  background-color: #A0AEC1;
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+h2 {
+  height: 50px;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url('http://www.trackienation.com/wp-content/uploads/2014/11/running-weightlifting-sports-run-nike.jpg');
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.navbar-inverse {
+     background: #466289;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #303F9F;
+    color: #eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color: #000000;
+}
