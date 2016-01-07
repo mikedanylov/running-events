@@ -27,11 +27,11 @@
 
 .thumbnail:hover {
   background-color: #A0AEC1;
-  -webkit-transform: scale(1.08);
-  -moz-transform: scale(1.08);
-  -ms-transform: scale(1.08);
-  -o-transform: scale(1.08);
-  transform: scale(1.08);
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  transform: scale(1.04);
 }
 
 h2 {
