@@ -25,7 +25,7 @@
     getEventsData("https://crossorigin.me/https://api-test.mynextrun.com/site/v1/event-stats");
 
     // load each location name every 2s because of google maps api restriction
-    var locationsLoaded = 6;
+    var locationsLoaded = 3;
     loadEventsLocations = setInterval(function(){
       if (locationsLoaded < $scope.eventsList.length){
         getEventLocation($scope.eventsList[locationsLoaded]);
@@ -53,7 +53,7 @@
         $scope.eventsList = response.data.events;
         $scope.totalDist = response.data.distanceCount;
         $scope.numEvents = response.data.eventCount;
-        $scope.eventsDisplayed = $scope.eventsList.slice(0, 6);
+        $scope.eventsDisplayed = $scope.eventsList.slice(0, 3);
         $scope.eventsDisplayed.forEach(function(each){
           // console.log(each);
           getEventLocation(each);
